@@ -1,0 +1,9 @@
+Sets a specific property of a character, stage element,
+the camera, etc.
+
+Value 1: The property to set.
+	 Properties follow this syntax: object.property
+	 For example, "gf.x" will return Girlfriend's X position.
+Value 2: The new value of the property.
+I recommend looking through the source of your
+stage/FNF to find the property and object names.

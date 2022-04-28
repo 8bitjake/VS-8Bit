@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_website.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="website basic0000" x="0" y="0" width="445" height="182"/>
+	<SubTexture name="website basic0001" x="0" y="0" width="445" height="182"/>
+	<SubTexture name="website basic0002" x="0" y="0" width="445" height="182"/>
+	<SubTexture name="website basic0003" x="445" y="0" width="445" height="182"/>
+	<SubTexture name="website basic0004" x="445" y="0" width="445" height="182"/>
+	<SubTexture name="website basic0005" x="445" y="0" width="445" height="182"/>
+	<SubTexture name="website basic0006" x="0" y="182" width="445" height="182"/>
+	<SubTexture name="website basic0007" x="0" y="182" width="445" height="182"/>
+	<SubTexture name="website basic0008" x="0" y="182" width="445" height="182"/>
+	<SubTexture name="website white0000" x="445" y="182" width="445" height="182"/>
+	<SubTexture name="website white0001" x="445" y="182" width="445" height="182"/>
+	<SubTexture name="website white0002" x="445" y="182" width="445" height="182"/>
+	<SubTexture name="website white0003" x="0" y="364" width="445" height="182"/>
+	<SubTexture name="website white0004" x="0" y="364" width="445" height="182"/>
+	<SubTexture name="website white0005" x="0" y="364" width="445" height="182"/>
+	<SubTexture name="website white0006" x="445" y="364" width="445" height="182"/>
+	<SubTexture name="website white0007" x="445" y="364" width="445" height="182"/>
+	<SubTexture name="website white0008" x="445" y="364" width="445" height="182"/>
+</TextureAtlas>

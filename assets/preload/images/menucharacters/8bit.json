@@ -1,0 +1,10 @@
+{
+	"idle_anim": "idle",
+	"image": "8bit_assets",
+	"position": [
+		0,
+		-60
+	],
+	"scale": 1.2,
+	"confirm_anim": "BF HEY!!"
+}

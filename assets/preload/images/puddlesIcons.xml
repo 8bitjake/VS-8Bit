@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="puddlesIcons.png">
+<SubTexture name="shift0000" x="0" y="0" width="139" height="154" frameX="200" frameY="0" frameWidth="139" frameHeight="154" />
+<SubTexture name="8bit0000" x="139" y="0" width="139" height="154" frameX="100" frameY="0" frameWidth="139" frameHeight="154" />
+<SubTexture name="bf0000" x="278" y="0" width="139" height="154" frameX="-100" frameY="0" frameWidth="139" frameHeight="154" />
+<SubTexture name="gf0000" x="417" y="0" width="139" height="154" frameX="-200" frameY="0" frameWidth="139" frameHeight="154" />
+<SubTexture name="all0000" x="0" y="0" width="556" height="154" frameX="200" frameY="0" frameWidth="556" frameHeight="154" />
+</TextureAtlas>

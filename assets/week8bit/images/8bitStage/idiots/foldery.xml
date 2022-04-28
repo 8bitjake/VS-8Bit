@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="foldery.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="foldery0000" x="0" y="0" width="227" height="219" frameX="-11" frameY="-11" frameWidth="238" frameHeight="232"/>
+	<SubTexture name="foldery0001" x="0" y="0" width="227" height="219" frameX="-11" frameY="-11" frameWidth="238" frameHeight="232"/>
+	<SubTexture name="foldery0002" x="227" y="0" width="222" height="232" frameX="-4" frameY="0" frameWidth="238" frameHeight="232"/>
+	<SubTexture name="foldery0003" x="227" y="0" width="222" height="232" frameX="-4" frameY="0" frameWidth="238" frameHeight="232"/>
+	<SubTexture name="foldery0004" x="0" y="232" width="223" height="226" frameX="0" frameY="-6" frameWidth="238" frameHeight="232"/>
+	<SubTexture name="foldery0005" x="0" y="232" width="223" height="226" frameX="0" frameY="-6" frameWidth="238" frameHeight="232"/>
+	<SubTexture name="foldery0006" x="223" y="232" width="222" height="226" frameX="-2" frameY="-6" frameWidth="238" frameHeight="232"/>
+	<SubTexture name="foldery0007" x="223" y="232" width="222" height="226" frameX="-2" frameY="-6" frameWidth="238" frameHeight="232"/>
+</TextureAtlas>

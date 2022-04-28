@@ -1,0 +1,119 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "8bit",
+		"player1": "bf",
+		"player2": "8bit",
+		"player3": null,
+		"events": [
+			[
+				81446.9696969697,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.2"
+					]
+				]
+			],
+			[
+				81450.7575757576,
+				[
+					[
+						"Set Property",
+						"camHUD.alpha",
+						"0.25"
+					]
+				]
+			],
+			[
+				81454.5454545455,
+				[
+					[
+						"Set GF Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				92000.0000000001,
+				[
+					[
+						"Set Property",
+						"camHUD.alpha",
+						"0.75"
+					]
+				]
+			],
+			[
+				93083.3333333334,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1"
+					]
+				]
+			],
+			[
+				93087.1212121213,
+				[
+					[
+						"Set Property",
+						"camHUD.alpha",
+						"1"
+					]
+				]
+			],
+			[
+				93090.9090909091,
+				[
+					[
+						"Set GF Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				160000,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"0.8"
+					]
+				]
+			],
+			[
+				174545.454545454,
+				[
+					[
+						"Add Camera Zoom",
+						"0.03",
+						""
+					]
+				]
+			],
+			[
+				174568.181818182,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 165,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "nexto"
+	}
+}

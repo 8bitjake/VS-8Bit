@@ -1,0 +1,50 @@
+{
+	"storyName": "funni computer graphics man :D",
+	"oldDifficulties": "Hard,Erect,Legacy Charting",
+	"difficulties":"Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"8bit",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"nexto",
+			"8bit",
+			[
+				118,
+				56,
+				0
+			]
+		],
+		[
+			"neon red",
+			"8bit",
+			[
+				118,
+				56,
+				0
+			]
+		],
+		[
+			"blasphemy",
+			"8bit",
+			[
+				118,
+				56,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 8Bit"
+}

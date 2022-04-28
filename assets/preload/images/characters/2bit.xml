@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="2bit.png"><SubTexture name="2bit idle0000" x="593" y="709" width="238" height="176" frameX="-50" frameY="-97" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit idle0001" x="373" y="709" width="220" height="193" frameX="-53" frameY="-79" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit idle0002" x="177" y="709" width="196" height="208" frameX="-59" frameY="-63" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit idle0003" x="0" y="709" width="177" height="214" frameX="-60" frameY="-56" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit left0000" x="479" y="480" width="225" height="223" frameX="-14" frameY="-41" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit left0001" x="785" y="223" width="218" height="221" frameX="-27" frameY="-45" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit left0002" x="785" y="444" width="204" height="215" frameX="-45" frameY="-52" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit right0000" x="505" y="0" width="280" height="237" frameX="-34" frameY="-24" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit right0001" x="0" y="480" width="276" height="229" frameX="-16" frameY="-38" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit right0002" x="785" y="0" width="269" height="223" frameX="-5" frameY="-44" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit up0000" x="0" y="0" width="225" height="242" frameX="-56" frameY="-15" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit up0001" x="0" y="242" width="213" height="238" frameX="-66" frameY="-29" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit up0002" x="276" y="480" width="203" height="227" frameX="-78" frameY="-47" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit down0000" x="505" y="237" width="243" height="235" frameX="-64" frameY="-45" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit down0001" x="213" y="242" width="259" height="238" frameX="-61" frameY="-38" frameWidth="334" frameHeight="280" />
+<SubTexture name="2bit down0002" x="225" y="0" width="280" height="242" frameX="-38" frameY="-29" frameWidth="334" frameHeight="280" />
+</TextureAtlas>

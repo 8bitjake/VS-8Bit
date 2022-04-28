@@ -1,0 +1,69 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "8bit",
+		"player1": "bf",
+		"player2": "8bit",
+		"player3": null,
+		"events": [
+			[
+				7741.93548387097,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				8018.4331797235,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				8294.93087557604,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				8571.42857142857,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				53087.5576036867,
+				[
+					[
+						"Add Camera Zoom",
+						"0.03",
+						"0.06"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 217,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "blasphemy"
+	}
+}

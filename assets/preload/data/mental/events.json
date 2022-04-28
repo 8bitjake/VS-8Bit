@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "8bit",
+		"player1": "bf",
+		"player2": "8bit",
+		"player3": null,
+		"events": [
+			[
+				9083.33333333333,
+				[
+					[
+						"Add Camera Zoom",
+						"0.5",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 177.1,
+		"arrowSkin": "",
+		"needsVoices": false,
+		"song": "mental"
+	}
+}

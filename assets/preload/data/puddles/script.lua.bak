@@ -1,0 +1,10 @@
+function onBeatHit()
+   if curBeat >= (128 / 4) then
+	    triggerEvent('Add Camera Zoom',0.1,0.05);
+	end
+end
+
+function onCreate()
+
+    addLuaScript('arrowBounce');
+end

@@ -1,0 +1,459 @@
+{
+	"song": {
+		"speed": 3.3,
+		"stage": "shift",
+		"player1": "8bit-player",
+		"player2": "shift",
+		"player3": null,
+		"events": [
+			[
+				69902.9126213593,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.5"
+					]
+				]
+			],
+			[
+				70485.4368932039,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				70631.0679611651,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				70776.6990291263,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				70922.3300970874,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				72815.5339805826,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				72961.1650485437,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				73106.7961165049,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				73252.4271844661,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				73980.5825242719,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				74126.2135922331,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				74271.8446601942,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				74417.4757281554,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				74563.1067961166,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.375"
+					]
+				]
+			],
+			[
+				75145.6310679612,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.25"
+					]
+				]
+			],
+			[
+				75728.1553398059,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.125"
+					]
+				]
+			],
+			[
+				76310.6796116505,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.1"
+					]
+				]
+			],
+			[
+				76893.2038834952,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.375"
+					]
+				]
+			],
+			[
+				77475.7281553398,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.25"
+					]
+				]
+			],
+			[
+				78058.2524271845,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.125"
+					]
+				]
+			],
+			[
+				78640.7766990292,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.1"
+					]
+				]
+			],
+			[
+				79223.3009708738,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.375"
+					]
+				]
+			],
+			[
+				79514.5631067962,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.25"
+					]
+				]
+			],
+			[
+				79805.8252427185,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.125"
+					]
+				]
+			],
+			[
+				80097.0873786408,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.1"
+					]
+				]
+			],
+			[
+				80388.3495145632,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.375"
+					]
+				]
+			],
+			[
+				80679.6116504855,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.25"
+					]
+				]
+			],
+			[
+				80970.8737864078,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.125"
+					]
+				]
+			],
+			[
+				81262.1359223302,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.1"
+					]
+				]
+			],
+			[
+				81553.3980582525,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.375"
+					]
+				]
+			],
+			[
+				81844.6601941748,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.25"
+					]
+				]
+			],
+			[
+				82135.9223300971,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.125"
+					]
+				]
+			],
+			[
+				82427.1844660195,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.1"
+					]
+				]
+			],
+			[
+				82718.4466019418,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.375"
+					]
+				]
+			],
+			[
+				83009.7087378641,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.25"
+					]
+				]
+			],
+			[
+				83300.9708737865,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.125"
+					]
+				]
+			],
+			[
+				83592.2330097088,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.1"
+					]
+				]
+			],
+			[
+				83883.4951456311,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.75"
+					]
+				]
+			],
+			[
+				85048.5436893204,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1"
+					]
+				]
+			],
+			[
+				85631.0679611651,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"0.75"
+					]
+				]
+			],
+			[
+				86213.5922330098,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.75"
+					]
+				]
+			],
+			[
+				87378.6407766991,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1"
+					]
+				]
+			],
+			[
+				87961.1650485437,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"0.75"
+					]
+				]
+			],
+			[
+				88543.6893203884,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 206,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "#242424"
+	}
+}

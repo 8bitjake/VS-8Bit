@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="shiftKey.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shiftKey0000" x="0" y="0" width="262" height="191" frameX="0" frameY="-11" frameWidth="262" frameHeight="202"/>
+	<SubTexture name="shiftKey0001" x="0" y="0" width="262" height="191" frameX="0" frameY="-11" frameWidth="262" frameHeight="202"/>
+	<SubTexture name="shiftKey0002" x="262" y="0" width="248" height="202" frameX="-7" frameY="0" frameWidth="262" frameHeight="202"/>
+</TextureAtlas>

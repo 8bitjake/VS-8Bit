@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nexto.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="notice0000" x="0" y="0" width="150" height="287" frameX="-6" frameY="0" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0001" x="150" y="0" width="152" height="278" frameX="-5" frameY="-10" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0002" x="302" y="0" width="154" height="271" frameX="-4" frameY="-18" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0003" x="456" y="0" width="154" height="264" frameX="-4" frameY="-25" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0004" x="610" y="0" width="156" height="259" frameX="-3" frameY="-31" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0005" x="766" y="0" width="158" height="254" frameX="-2" frameY="-36" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0006" x="924" y="0" width="158" height="250" frameX="-2" frameY="-41" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0007" x="1082" y="0" width="158" height="247" frameX="-2" frameY="-44" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0008" x="1240" y="0" width="160" height="244" frameX="-1" frameY="-47" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0009" x="1400" y="0" width="160" height="242" frameX="-1" frameY="-50" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0010" x="1560" y="0" width="160" height="240" frameX="-1" frameY="-52" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0011" x="1720" y="0" width="160" height="238" frameX="-1" frameY="-54" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0012" x="1880" y="0" width="161" height="237" frameX="-1" frameY="-55" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0013" x="0" y="287" width="162" height="236" frameX="0" frameY="-56" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0014" x="162" y="287" width="162" height="235" frameX="0" frameY="-57" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0015" x="324" y="287" width="162" height="234" frameX="0" frameY="-58" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0016" x="486" y="287" width="162" height="234" frameX="0" frameY="-58" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0017" x="648" y="287" width="162" height="234" frameX="0" frameY="-58" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0018" x="648" y="287" width="162" height="234" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0019" x="810" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0020" x="810" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0021" x="810" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0022" x="810" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0023" x="972" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0024" x="972" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0025" x="810" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0026" x="810" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0027" x="810" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<SubTexture name="notice0028" x="810" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/>
+	<!-- <SubTexture name="notice0029" x="1134" y="287" width="162" height="233" frameX="0" frameY="-59" frameWidth="162" frameHeight="292"/> -->
+	<SubTexture name="sit0000" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0001" x="1458" y="287" width="162" height="233"/>
+	<SubTexture name="sit0002" x="1620" y="287" width="162" height="229" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0003" x="1782" y="287" width="162" height="225" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0004" x="0" y="523" width="162" height="224" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0005" x="162" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0006" x="324" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0007" x="486" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0008" x="486" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0009" x="486" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0010" x="486" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0011" x="486" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0012" x="486" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0013" x="486" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0014" x="486" y="523" width="162" height="223" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0015" x="648" y="523" width="162" height="224" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0016" x="810" y="523" width="162" height="228" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0017" x="972" y="523" width="162" height="231" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0018" x="1134" y="523" width="162" height="232" frameX="0" frameY="0" frameWidth="162" frameHeight="233"/>
+	<SubTexture name="sit0019" x="1296" y="523" width="162" height="233"/>
+	<SubTexture name="sit0020" x="1458" y="523" width="162" height="233"/>
+	<SubTexture name="sit0021" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0022" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0023" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0024" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0025" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0026" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0027" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0028" x="1296" y="287" width="162" height="233"/>
+	<SubTexture name="sit0029" x="1296" y="287" width="162" height="233"/>
+</TextureAtlas>
