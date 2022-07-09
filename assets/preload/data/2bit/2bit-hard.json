@@ -24754,7 +24754,7 @@
 		"song": "2bit",
 		"stage": "8bit-doinalittletrollin",
 		"validScore": true,
-		"arrowSkin": "",
+		"arrowSkin": "2bit_NOTE_assets",
 		"needsVoices": true,
 		"speed": 2.5,
 		"bpm": 169

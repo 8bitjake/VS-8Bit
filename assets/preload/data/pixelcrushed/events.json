@@ -1,0 +1,49 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "pixelate",
+		"player1": "bf-pixelate",
+		"player2": "8bit-pixel",
+		"player3": null,
+		"events": [
+			[
+				17052.6315789474,
+				[
+					[
+						"Set Property",
+						"camGame.alpha",
+						"0"
+					]
+				]
+			],
+			[
+				17680.9210526316,
+				[
+					[
+						"Set Property",
+						"camGame.alpha",
+						"1"
+					]
+				]
+			],
+			[
+				17684.2105263158,
+				[
+					[
+						"Screen Shake",
+						"2.32,0.025",
+						"2.32,0.0125"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 190,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "pixelcrushed"
+	}
+}

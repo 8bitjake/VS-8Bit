@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "8bit",
+		"player1": "bf",
+		"player2": "8bit",
+		"player3": null,
+		"events": [
+			[
+				55352.1126760564,
+				[
+					[
+						"Add Camera Zoom",
+						"0.5",
+						"1"
+					]
+				]
+			],
+			[
+				81126.7605633803,
+				[
+					[
+						"Add Camera Zoom",
+						"0.5",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 142,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "sporty!"
+	}
+}

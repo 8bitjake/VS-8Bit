@@ -319,9 +319,9 @@ class WeekEditorState extends MusicBeatState
 
 		var isMissing:Bool = true;
 		if(assetName != null && assetName.length > 0) {
-			if( #if MODS_ALLOWED FileSystem.exists(Paths.modsImages('menubackgrounds/menu_' + assetName)) || #end
-			Assets.exists(Paths.image('menubackgrounds/menu_' + assetName), IMAGE)) {
-				bgSprite.loadGraphic(Paths.image('menubackgrounds/menu_' + assetName));
+			if( #if MODS_ALLOWED FileSystem.exists(Paths.modsImages('menubackgrounds/' + assetName)) || #end
+			Assets.exists(Paths.image('menubackgrounds/' + assetName), IMAGE)) {
+				bgSprite.loadGraphic(Paths.image('menubackgrounds/' + assetName));
 				isMissing = false;
 			}
 		}

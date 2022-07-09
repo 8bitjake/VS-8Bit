@@ -16,6 +16,7 @@ import openfl.Lib;
 #if openfl
 import openfl.system.System;
 #end
+import openfl.Assets;
 
 /**
 	The FPS class provides an easy-to-use monitor to display
@@ -46,7 +47,7 @@ class FPS extends TextField
 		currentFPS = 0;
 		selectable = false;
 		mouseEnabled = false;
-		defaultTextFormat = new TextFormat("_sans", 14, color);
+		defaultTextFormat = new TextFormat(Assets.getFont(Paths.font('vcr.ttf')).fontName,Std.int(12*1.5),color);
 		autoSize = LEFT;
 		multiline = true;
 		text = "FPS: ";
@@ -66,6 +67,7 @@ class FPS extends TextField
 
 	// Event Handlers
 	@:noCompletion
+	var maxMem:Float = 0;
 	private #if !flash override #end function __enterFrame(deltaTime:Float):Void
 	{
 		currentTime += deltaTime;
@@ -88,6 +90,8 @@ class FPS extends TextField
 			#if openfl
 			memoryMegas = Math.abs(FlxMath.roundDecimal(System.totalMemory / 1000000, 1));
 			text += "\nMemory: " + memoryMegas + " MB";
+			if(memoryMegas > maxMem) maxMem = memoryMegas;
+			text += "\nMax Memory: " + maxMem + " MB";
 			#end
 
 			textColor = 0xFFFFFFFF;
@@ -102,7 +106,7 @@ class FPS extends TextField
 			text += "\nstage3DDC: " + Context3DStats.contextDrawCalls(DrawCallContext.STAGE3D);
 			#end
 
-			text += "\n";
+			text += "\nPsych Engine v"+MainMenuState.psychEngineVersion;
 		}
 
 		cacheCount = currentCount;

@@ -1,0 +1,49 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "foldery",
+		"player1": "bf",
+		"player2": "foldery",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Start Errors",
+						"",
+						""
+					]
+				]
+			],
+			[
+				42825.2788104089,
+				[
+					[
+						"Change Scroll Speed",
+						"1.166",
+						"1.33"
+					]
+				]
+			],
+			[
+				132044.609665427,
+				[
+					[
+						"Stop Errors",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 269,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "folder funk"
+	}
+}

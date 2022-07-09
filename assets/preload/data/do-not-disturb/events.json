@@ -1,0 +1,154 @@
+{
+	"song": {
+		"speed": 2,
+		"stage": "foldery",
+		"player1": "bf",
+		"player2": "foldery",
+		"player3": null,
+		"events": [
+			[
+				3200,
+				[
+					[
+						"Start Errors",
+						"",
+						""
+					],
+					[
+						"Set Error Frequency",
+						"14",
+						""
+					]
+				]
+			],
+			[
+				25600,
+				[
+					[
+						"Set Error Frequency",
+						"21",
+						""
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"Set Error Frequency",
+						"7",
+						""
+					]
+				]
+			],
+			[
+				44800,
+				[
+					[
+						"Set Error Frequency",
+						"11",
+						""
+					]
+				]
+			],
+			[
+				51200,
+				[
+					[
+						"Set Error Frequency",
+						"5",
+						""
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Set Error Frequency",
+						"8",
+						""
+					],
+					[
+						"Display Tutorial Text",
+						"Don't miss the yellow notes,",
+						"1.6"
+					]
+				]
+			],
+			[
+				58700,
+				[
+					[
+						"Display Tutorial Text",
+						"or you'll be sent to a random video!",
+						"2"
+					]
+				]
+			],
+			[
+				89600,
+				[
+					[
+						"Set Error Frequency",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				102400,
+				[
+					[
+						"Set Error Frequency",
+						"6",
+						""
+					]
+				]
+			],
+			[
+				124800,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.575"
+					],
+					[
+						"Stop Errors",
+						"",
+						""
+					],
+					[
+						"Set GF Speed",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				128000,
+				[
+					[
+						"Set GF Speed",
+						"100",
+						""
+					],
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"0.72"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 150,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "do not disturb"
+	}
+}

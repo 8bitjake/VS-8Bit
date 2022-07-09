@@ -1,0 +1,3 @@
+Displays helpful text for the player to read.
+Value 1 - The text to display.
+Value 2 - How long to keep the text on-screen, in seconds.

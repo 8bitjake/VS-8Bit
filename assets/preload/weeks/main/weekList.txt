@@ -1,0 +1,5 @@
+week8bit
+weekShift
+weekFoldery
+weekRematch
+bonus

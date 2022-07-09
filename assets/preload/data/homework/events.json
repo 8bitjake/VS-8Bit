@@ -1,0 +1,124 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "foldery",
+		"player1": "bf",
+		"player2": "foldery",
+		"player3": null,
+		"events": [
+			[
+				39763.3136094675,
+				[
+					[
+						"Start Errors",
+						"",
+						""
+					],
+					[
+						"Display Tutorial Text",
+						"Click the popups to close them.",
+						"5.18"
+					]
+				]
+			],
+			[
+				56804.7337278107,
+				[
+					[
+						"Stop Errors",
+						"",
+						""
+					]
+				]
+			],
+			[
+				68165.6804733728,
+				[
+					[
+						"Start Errors",
+						"",
+						""
+					]
+				]
+			],
+			[
+				79526.6272189349,
+				[
+					[
+						"Change Scroll Speed",
+						"0.8",
+						"1"
+					]
+				]
+			],
+			[
+				85207.100591716,
+				[
+					[
+						"Stop Errors",
+						"0.8",
+						"1"
+					]
+				]
+			],
+			[
+				93727.8106508876,
+				[
+					[
+						"Change Scroll Speed",
+						"0.666666667",
+						"1"
+					]
+				]
+			],
+			[
+				96568.0473372781,
+				[
+					[
+						"Start Errors",
+						"0.8",
+						"1"
+					],
+					[
+						"Set Error Frequency",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				106508.875739645,
+				[
+					[
+						"Change Scroll Speed",
+						"1.25",
+						"1.42"
+					]
+				]
+			],
+			[
+				147692.307692308,
+				[
+					[
+						"Stop Errors",
+						"",
+						""
+					],
+					[
+						"Set Property",
+						"defaultCameraZoom",
+						"1.35"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 169,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "homework"
+	}
+}

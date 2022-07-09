@@ -1,0 +1,84 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "8bit",
+		"player1": "pico",
+		"player2": "7bit",
+		"player3": null,
+		"events": [
+			[
+				4411.76470588235,
+				[
+					[
+						"Play Animation",
+						"startup",
+						"bf"
+					]
+				]
+			],
+			[
+				22235.2941176471,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.5"
+					]
+				]
+			],
+			[
+				22588.2352941176,
+				[
+					[
+						"Play Animation",
+						"idle-bd",
+						"bf"
+					],
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1"
+					],
+					[
+						"Screen Shake",
+						"0.25,0.01",
+						"0.3,0.0075"
+					]
+				]
+			],
+			[
+				33176.4705882353,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.5"
+					]
+				]
+			],
+			[
+				33882.3529411765,
+				[
+					[
+						"Screen Shake",
+						"0.25,0.01",
+						"0.3,0.0075"
+					],
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 170,
+		"arrowSkin": "",
+		"needsVoices": false,
+		"song": "picobit"
+	}
+}

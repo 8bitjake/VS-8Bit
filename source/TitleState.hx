@@ -132,12 +132,12 @@ class TitleState extends MusicBeatState
 		#if CHECK_FOR_UPDATES
 		if(!closedState) {
 			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/ShadowMario/FNF-PsychEngine/main/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/8bitjake/VS-8Bit/main/gitVersion.txt");
 			
 			http.onData = function (data:String)
 			{
 				updateVersion = data.split('\n')[0].trim();
-				var curVersion:String = MainMenuState.psychEngineVersion.trim();
+				var curVersion:String = MainMenuState.vs8bitVersion.trim();
 				trace('version online: ' + updateVersion + ', your version: ' + curVersion);
 				if(updateVersion != curVersion) {
 					trace('versions arent matching!');
@@ -575,23 +575,23 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					createCoolText(['8BitJake'], 15);
+					createCoolText(['8Bit'], 15);
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 
 				case 2:
-					addMoreText('proudly');
+					addMoreText('proudly',15);
 				case 3:
-					addMoreText('presents');
+					addMoreText('presents',15);
 				case 4:
 					deleteCoolText();
 				// credTextShit.visible = false;
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
 				case 5:
-					createCoolText(['In collaboration', 'with'], -40);
+					createCoolText(['Brought to you', 'by'], -40);
 				case 7:
-					addMoreText('kav13', -40);
+					addMoreText('Team Shitclub', -40);
 					ngSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 8:

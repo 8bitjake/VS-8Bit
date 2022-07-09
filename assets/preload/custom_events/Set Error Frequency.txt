@@ -1,0 +1,3 @@
+Only works in Foldery's week.
+Sets the odds for an error to appear out of 1.
+Value 1 - What the new frequency should be. (Default: 7)

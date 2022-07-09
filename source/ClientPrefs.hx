@@ -75,6 +75,9 @@ class ClientPrefs {
 	];
 	public static var defaultKeys:Map<String, Array<FlxKey>> = null;
 
+	public static var oldSongs:Bool = false;
+	public static var effects:Bool = true;
+
 	public static function loadDefaultKeys() {
 		defaultKeys = keyBinds.copy();
 		//trace(defaultKeys);
@@ -112,6 +115,9 @@ class ClientPrefs {
 		FlxG.save.data.safeFrames = safeFrames;
 		FlxG.save.data.gameplaySettings = gameplaySettings;
 		FlxG.save.data.controllerMode = controllerMode;
+
+		FlxG.save.data.oldSongs = oldSongs;
+		FlxG.save.data.effects = effects;
 	
 		FlxG.save.flush();
 
@@ -222,6 +228,16 @@ class ClientPrefs {
 			for (name => value in savedMap)
 			{
 				gameplaySettings.set(name, value);
+			}
+		}
+
+		if(FlxG.save.data.oldSongs != null) {
+			oldSongs = FlxG.save.data.oldSongs;
+		}
+		if(FlxG.save.data.effects != null) {
+			effects = FlxG.save.data.effects;
+			if(flashing == false){
+				effects = false;
 			}
 		}
 		

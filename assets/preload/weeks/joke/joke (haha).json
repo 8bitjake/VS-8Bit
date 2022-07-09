@@ -1,0 +1,67 @@
+{
+	"songs": [
+		[
+			"2bit",
+			"2bit-pixel",
+			[
+				118,
+				56,
+				0
+			]
+		],
+		[
+			"ip",
+			"2bit-pixel",
+			[
+				118,
+				56,
+				0
+			]
+		],
+		[
+			"mental",
+			"8bit",
+			[
+				118,
+				56,
+				0
+			]
+		],
+		[
+			"nexto (unused mix)",
+			"blank",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"alsowltwiappbtc2c",
+			"7bit",
+			[
+				146,
+				87,
+				21
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Hard",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Joke Songs",
+	"weekName": "Joke Songs",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

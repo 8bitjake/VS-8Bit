@@ -1,0 +1,49 @@
+{
+	"storyName": "*New Document - Notepad",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "foldery",
+	"weekBefore": "weekShift",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"homework",
+			"foldery",
+			[
+				232,
+				170,
+				0
+			]
+		],
+		[
+			"do not disturb",
+			"foldery",
+			[
+				232,
+				170,
+				0
+			]
+		],
+		[
+			"folder funk",
+			"foldery",
+			[
+				232,
+				170,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Week Foldery"
+}

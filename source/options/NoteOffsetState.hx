@@ -20,6 +20,7 @@ class NoteOffsetState extends MusicBeatState
 {
 	var boyfriend:Character;
 	var gf:Character;
+	var dad:Character;
 
 	public var camHUD:FlxCamera;
 	public var camGame:FlxCamera;
@@ -61,41 +62,27 @@ class NoteOffsetState extends MusicBeatState
 		persistentUpdate = true;
 		FlxG.sound.pause();
 		// Stage
-		var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
+		var bg:BGSprite = new BGSprite('titleBG',100,150,1,1);
+		bg.scale.set(1.1,1.1);
 		add(bg);
 
-		var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
-		stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
-		stageFront.updateHitbox();
-		add(stageFront);
-
-		if(!ClientPrefs.lowQuality) {
-			var stageLight:BGSprite = new BGSprite('stage_light', -125, -100, 0.9, 0.9);
-			stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
-			stageLight.updateHitbox();
-			add(stageLight);
-			var stageLight:BGSprite = new BGSprite('stage_light', 1225, -100, 0.9, 0.9);
-			stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
-			stageLight.updateHitbox();
-			stageLight.flipX = true;
-			add(stageLight);
-
-			var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
-			stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
-			stageCurtains.updateHitbox();
-			add(stageCurtains);
-		}
-
 		// Characters
-		gf = new Character(400, 130, 'gf');
+		gf = new Character(400, 130, 'gf',false,true);
 		gf.x += gf.positionArray[0];
 		gf.y += gf.positionArray[1];
 		gf.scrollFactor.set(0.95, 0.95);
-		boyfriend = new Character(770, 100, 'bf', true);
+
+		boyfriend = new Character(770, 100, 'bf', true,true);
 		boyfriend.x += boyfriend.positionArray[0];
 		boyfriend.y += boyfriend.positionArray[1];
+
+		dad = new Character(100, 100, 'foldery', false,true);
+		dad.x += dad.positionArray[0];
+		dad.y += dad.positionArray[1];
+
 		add(gf);
 		add(boyfriend);
+		add(dad);
 
 		// Combo stuff
 
@@ -193,8 +180,8 @@ class NoteOffsetState extends MusicBeatState
 		add(changeModeText);
 		updateMode();
 
-		Conductor.changeBPM(128.0);
-		FlxG.sound.playMusic(Paths.music('offsetSong'), 1, true);
+		Conductor.changeBPM(169);
+		FlxG.sound.playMusic(Paths.inst('homework'), 1, true);
 
 		super.create();
 	}
@@ -272,7 +259,6 @@ class NoteOffsetState extends MusicBeatState
 						 startMousePos.y - rating.y >= 0 && startMousePos.y - rating.y <= rating.height)
 				{
 					holdingObjectType = false;
-					FlxG.mouse.getScreenPosition(camHUD, startMousePos);
 					startComboOffset.x = ClientPrefs.comboOffset[0];
 					startComboOffset.y = ClientPrefs.comboOffset[1];
 					//trace('heya');
@@ -374,13 +360,15 @@ class NoteOffsetState extends MusicBeatState
 			return;
 		}
 
+		gf.dance();
+
 		if(curBeat % 2 == 0)
 		{
 			boyfriend.dance();
-			gf.dance();
+			dad.dance();
 		}
 		
-		if(curBeat % 4 == 2)
+		if(curBeat % 4 == 0)
 		{
 			FlxG.camera.zoom = 1.15;
 

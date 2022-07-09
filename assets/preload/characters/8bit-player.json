@@ -13,7 +13,7 @@
 		},
 		{
 			"offsets": [
-				0,
+				57,
 				0
 			],
 			"loop": false,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-18,
+				15
 			],
 			"loop": false,
 			"fps": 24,
@@ -36,7 +36,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				48,
+				-6,
 				0
 			],
 			"anim": "singLEFT",
@@ -47,7 +47,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				-5,
+				-50,
 				0
 			],
 			"anim": "singRIGHT",
@@ -59,8 +59,8 @@
 	"no_antialiasing": false,
 	"image": "characters/8bit_assets",
 	"position": [
-		200,
-		400
+		100,
+		340
 	],
 	"healthicon": "8bit-duet",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		0
 	],
 	"camera_position": [
-		250,
-		20
+		-140,
+		90
 	],
 	"sing_duration": 4,
-	"scale": 1.75
+	"scale": 0.749999999999999
 }

@@ -1,0 +1,50 @@
+{
+	"storyName": "into the bitverse (trademark pending)",
+	"oldDifficulties": "Hard,Erect,Legacy Charting",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "8bit",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"nexto",
+			"8bit",
+			[
+				118,
+				56,
+				0
+			]
+		],
+		[
+			"neon red",
+			"8bit",
+			[
+				118,
+				56,
+				0
+			]
+		],
+		[
+			"blasphemy",
+			"8bit",
+			[
+				118,
+				56,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 8Bit"
+}

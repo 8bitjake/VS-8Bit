@@ -1,0 +1,50 @@
+{
+	"oldDifficulties": "Hard,Erect",
+	"storyName": "week 2: electric boogaloo",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "shift",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week8bit",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"#242424",
+			"shift",
+			[
+				40,
+				40,
+				40
+			]
+		],
+		[
+			"badassery",
+			"shift",
+			[
+				40,
+				40,
+				40
+			]
+		],
+		[
+			"puddles",
+			"shift",
+			[
+				40,
+				40,
+				40
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week Shift"
+}

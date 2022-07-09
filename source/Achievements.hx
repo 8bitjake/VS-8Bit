@@ -20,7 +20,8 @@ class Achievements {
 		["Nice",					"Complete a song with a rating of EXACTLY 69%.",				'funni_number',			true],
 		["Your Fingers Need Replacing",	"Die 888 times.",	'blueballs',				false],
 		["Free Achievement", "Really man?",'cringe',true],
-		["Hi Dakota!","Visit VS. Dakota's mod page.\nI'm not telling you how to unlock this achievement though ;)",'dakota',false]
+		["Hi Dakota!","Visit VS. Dakota's mod page.\nI'm not telling you how to unlock this achievement though ;)",'dakota',false],
+		["Unobtainable Achievement","You can't unlock this achievement without editing the source code.\nFuck you, completionists.",false]
 	];
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 
