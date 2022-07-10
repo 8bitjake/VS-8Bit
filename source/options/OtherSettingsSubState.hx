@@ -41,6 +41,13 @@ class OtherSettingsSubState extends BaseOptionsMenu
 			false); //Default value
 		addOption(option);
 
+		var option:Option = new Option('Popups',
+			'Toggles the popups in Foldery\'s week.\nIf you disable this, you suck.',
+			'popups',
+			'bool',
+			true);
+		addOption(option);
+
 		var option:Option = new Option('Effects',
 			'Toggles the cool visual effects.\nForced off if flashing lights are disabled.',
 			'effects',

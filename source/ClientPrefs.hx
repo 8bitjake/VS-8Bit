@@ -77,6 +77,7 @@ class ClientPrefs {
 
 	public static var oldSongs:Bool = false;
 	public static var effects:Bool = true;
+	public static var popups:Bool = true;
 
 	public static function loadDefaultKeys() {
 		defaultKeys = keyBinds.copy();
@@ -118,6 +119,7 @@ class ClientPrefs {
 
 		FlxG.save.data.oldSongs = oldSongs;
 		FlxG.save.data.effects = effects;
+		FlxG.save.data.popups = popups;
 	
 		FlxG.save.flush();
 
@@ -239,6 +241,9 @@ class ClientPrefs {
 			if(flashing == false){
 				effects = false;
 			}
+		}
+		if(FlxG.save.data.popups != null) {
+			popups = FlxG.save.data.popups;
 		}
 		
 		// flixel automatically saves your volume!
