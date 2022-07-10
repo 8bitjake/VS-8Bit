@@ -129,7 +129,6 @@ class TitleState extends MusicBeatState
 		}
 		#end
 		
-		#if CHECK_FOR_UPDATES
 		if(!closedState) {
 			trace('checking for update');
 			var http = new haxe.Http("https://raw.githubusercontent.com/8bitjake/VS-8Bit/main/gitVersion.txt");
@@ -151,7 +150,6 @@ class TitleState extends MusicBeatState
 			
 			http.request();
 		}
-		#end
 
 		FlxG.game.focusLostFramerate = 60;
 		FlxG.sound.muteKeys = muteKeys;
