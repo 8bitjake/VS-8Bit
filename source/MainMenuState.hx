@@ -20,13 +20,14 @@ import lime.app.Application;
 import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
+import flash.display.BitmapData;
 
 using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.5'; // This is also used for Discord RPC
-	public static var vs8bitVersion:String = '3.0.1a';
+	public static var vs8bitVersion:String = '3.0.2a';
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -58,7 +59,7 @@ class MainMenuState extends MusicBeatState
 
 	var daImage:FlxSprite;
 	override function create()
-	{
+	{		
 		Conductor.changeBPM(102);
 		#if desktop
 		// Updating Discord Rich Presence
